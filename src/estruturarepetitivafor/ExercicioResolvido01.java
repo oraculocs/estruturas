@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class ExercicioResolvido01 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Leia 1 valor inteiro N (2 < N < 1000). A seguir, mostre a tabuada de N:
+		 * 1 x N = N	2 x N = 2N	....	10 x N = 10N
+		 */
 
 		Scanner sc = new Scanner(System.in);
 		

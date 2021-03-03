@@ -6,6 +6,10 @@ public class ExercicioResolvido02 {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * Leia 2 valores inteiros X e Y. A seguir, calcule e mostre a soma dos números ímpares entre eles
+		 */
+		
 		Scanner sc = new Scanner(System.in);
 		
 		int x, y;

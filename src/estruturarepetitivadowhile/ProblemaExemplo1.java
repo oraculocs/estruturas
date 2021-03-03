@@ -6,6 +6,11 @@ import java.util.Scanner;
 public class ProblemaExemplo1 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Faça uma programa para converter de Celsius para Farenheit
+		 *  e perguntar ao usuário se deseja repetir a operação
+		 */
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
