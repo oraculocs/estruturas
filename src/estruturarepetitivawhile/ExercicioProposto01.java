@@ -37,6 +37,8 @@ public class ExercicioProposto01 {
 		}
 		
 		System.out.println("Acesso Permitido");
+		
+		sc.close();
 	}
 
 }

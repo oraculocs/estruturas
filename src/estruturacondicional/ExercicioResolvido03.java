@@ -6,6 +6,11 @@ import java.util.Scanner;
 public class ExercicioResolvido03 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Fazer um programa para ler 3 números inteiros. Em seguida, mostral qual o
+		 * menor dentre os 3 números lidos. Em caso de empate, mostrar apenas uma vez.
+		 */
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);

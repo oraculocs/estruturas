@@ -5,6 +5,19 @@ import java.util.Locale;
 public class Exercicio {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Iniciar as variáveis com alguns valores e produzir
+		 * as seguintes saídas na tela do console:
+		 * 
+		 * Products:
+		 * Computer, which price is $ 2100,00
+		 * Office desk, which price is $ 650,50
+		 * Record: 30 years old, code 5290 and gender: F
+		 * Measue with eight decimal places: 53,23456700
+		 * Rouded (three decimal places): 53,235
+		 * US decimal point: 53.235
+		 */
 
 		
 		 String product1 = "Computer";
@@ -24,11 +37,12 @@ public class Exercicio {
 		 System.out.println("");
 		 System.out.printf("Record: %d, code %d and gender: %s%n", age, code, gender);
 		 
-		 Locale.setDefault(Locale.US);
+		
 		 System.out.printf("Measue with eight decimal places: %.8f%n", measure);
 		 
 		 System.out.printf("Rouded (three decimal places): %.3f%n", measure);
 		 
+		 Locale.setDefault(Locale.US);
 		 System.out.printf("US decimal point %.3f%n", measure);
 		
 	}
